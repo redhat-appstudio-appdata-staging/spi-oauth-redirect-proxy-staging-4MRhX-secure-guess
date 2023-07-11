@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: spi-oauth-redirect-proxy
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:dc25120f9e6b5fe6ee5d7a1666c2555861df53901c0acfd7f0844897210133e2
+      - image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:76fe527f169d93fa1257dcfbea8871428e608d6893c67c95cc5f29f4952e6a48
         name: container-image
         resources: {}
 status: {}
