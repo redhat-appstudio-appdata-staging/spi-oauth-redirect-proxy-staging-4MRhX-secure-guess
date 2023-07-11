@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: spi-oauth-redirect-proxy
     app.kubernetes.io/part-of: spi-oauth-redirect-proxy-staging
-  name: spi-oauth-redirect-proxymye7
+  name: spi-oauth-redirect-proxyfup0
 spec:
   port:
     targetPort: 8080
