@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:db8420cf51445e38c2aa606a8626acb66f80ce926aff9ef1bd9e132d113cb4ad
+      - image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:c19539d7ac369a4a8c3e7dcf5482b90da2e361ab951e2b0e19c347c88a795fa8
         name: container-image
         resources: {}
 status: {}
