@@ -26,7 +26,7 @@ spec:
       - env:
         - name: ALLOWED_REDIRECT_URLS
           value: .opentlc.com,.openshiftapps.com,.ci.openshift.org
-        image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:48e8e002e01eb40ea29f4eed4706fd81cd7985ae9bf6b44ebe4ca2f78077ca07
+        image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy-staging/spi-oauth-redirect-proxy@sha256:2f2d2028a853dd6fb156a712479046b339a5026cd49153bb3528274a0800a637
         imagePullPolicy: Always
         name: container-image
         ports:
